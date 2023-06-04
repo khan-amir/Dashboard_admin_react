@@ -111,7 +111,7 @@ const Sidebar = () => {
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
             <Item
               title="Dashboard"
-              to="Dashboard_admin_reac/"
+              to="Dashboard_admin_react/"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
