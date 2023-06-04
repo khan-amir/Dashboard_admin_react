@@ -19,7 +19,7 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="Dashboard_admin_reac/" element={<Dashboard />} />
             </Routes>
           </main>
         </div>
