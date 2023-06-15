@@ -43,4 +43,9 @@ body,
 .content {
   width: 90vh;
 }
+
+.gridClass.MuiBox-root.css-ists20 {
+  display: flex;
+  flex-direction: column;
+}
 }

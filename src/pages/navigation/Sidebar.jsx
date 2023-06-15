@@ -35,7 +35,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
 const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const [selected, setSelected] = useState("Dashboard");
 
   return (
@@ -126,21 +126,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Manage Team"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Contacts Information"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Invoices Balances"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -156,21 +156,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Bar Chart"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Line Chart"
-              to=""
+              to="Dashboard_admin_react/"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
